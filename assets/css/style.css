@@ -1,3 +1,11 @@
+hr{
+  background-color: grey;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -5,38 +13,66 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background: #efeee7;
+  background-image: url('../images/ep_naturalwhite.png')
+
 }
 
 header {
-  background: #333;
+  background: white;
+  margin-top: 20px;
+  border-style: solid;
 }
-
 h1 {
   padding: 20px 0;
   margin: 20px;
-  margin-bottom: 20px;
+  
   font-size: 28px;
   color: #eee;
   text-align: left;
+  margin-left: 8%;
+  background-color: #4aaaa5;
+  width:14%;
+  font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
+
 h2 {
-  font-size: 24px;
+  font-size: 28px;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  margin-top: 25px;
+  margin-bottom:15px;
+  margin-left: 5%;
+  color: #4aaaa5;
+  font-weight: bold;
+
 }
 
 a {
   color: #d21034;
 }
+p{
+  margin-right: 5%;
+  margin-left: 5%;
+}
 
 .container {
   width: 1024px;
-  margin: 0 auto;
+  margin-left: 8%;
+
+}
+.connect_img {
+  width: 90px;
+  padding: 4px;
 }
 
 #main-bio,
 #bio-image {
   float: left;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  
 }
 
 #main-bio {
@@ -45,14 +81,19 @@ a {
 
 #Connecting {
   width: 30%;
-  float: right;
+  background-color: white;
+  margin-left: 75%;
+  padding:10px;
+  
 }
 
 #bio-image {
   width: 200px;
   height: 200px;
   margin-right: 20px;
+  margin-left: 5%;
 }
+
 
 input[type=text] {
   width: 50%;
