@@ -111,6 +111,9 @@ form{
   background-color: white;
   margin-left: 75%;
   padding:10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
   
 }
 
