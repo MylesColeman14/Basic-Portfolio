@@ -2,6 +2,7 @@
 <html lang="en-us">
 <head>
 	<title>Conact</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="assets\css/style.css">
 </head>
 
@@ -9,32 +10,39 @@
 	<header>
 		<h1>Myles Coleman</h1>	
 	</header>
+    <div class="links">
+     <ul> <a href="contact.html">Contact   |</a></ul>
+     <ul> <a href="index.html">About   |</a></ul>
+     <ul> <a href="portfolio.html">Portfolio</a></ul>
+    </div>  
 
-	<div>
 
-		<h2>Contact</h2>
-
-		<section id="Connecting">
-      		<h2>Connect with Me</h2>
-     		<ul>
-       			<li><strong>Email:</strong> <a href="https://gmail.com">myles.coleman14@gmail.com</a></li>
-        		<li><strong>Github:</strong> <a href="https://github.com/MylesColeman14" target_"blank">Github</a></li>
-        		<li><strong>Portfolio:</strong> <a href="https://linkedin.com/in/mylescoleman/" target_"blank">Linkedin</a></li>
-      		</ul>
-   		 </section>
+    <div class="container">
 
 		<section class="textfield">
+
+      <h2>Contact</h2>
+      <hr>
 			<form>
   				Name<br>
   				<input type="text" name="firstname"><br>
   				Email<br>
   				<input type="text" name="lastname"><br>
   				Message<br>
-  				<input type="textbox" message="Message"><br>
+  				<textarea></textarea><br>
   				<input type="submit" value="Submit">
 			</form>
 		</section>
 
+    <section id="Connecting">
+      <h2>Connect With Me</h2>
+      <hr>
 
-	</div>
+      <a href="https://github.com/MylesColeman14" target="blank"><img class="connect_img" src="assets/images/github.png" alt="Github"></a>
+      <a href="https://www.linkedin.com/in/mylescoleman/" target="blank"><img class="connect_img" src="assets/images/linkedin.png" alt="Linkedin"></a>
+      <a href="https://stackoverflow.com/users/8606901/mcole14" target="blank"><img class="connect_img" src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
+     
+    </section>
+    </div>
 </body>
+</html>
